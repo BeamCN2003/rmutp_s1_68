@@ -3,6 +3,11 @@
 pirapat papat
 
 ## Running
+### Database
+ ```
+ docker-composr up -d
+ ```
+ ### Schema
  ```
  npx prisma studio    
 ```
