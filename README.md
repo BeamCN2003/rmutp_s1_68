@@ -1,6 +1,10 @@
-#Prisma
+# Prisma
 
-Tanapat Nunkhong
+## Required
+- Docker & Docker
+Compose
+
+
 
 ## Running
 ### Database
