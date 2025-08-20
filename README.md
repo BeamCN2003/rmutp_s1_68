@@ -1,8 +1,12 @@
 # Prisma
 
 ## Required
-- Docker & Docker
-Compose
+- Git
+- Docker & Docker Compose
+- PostgreSQL
+- Node.Js
+- Prisma
+
 
 
 
