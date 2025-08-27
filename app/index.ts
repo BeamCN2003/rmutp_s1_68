@@ -1,6 +1,7 @@
 import { Hono } from "hono";
-import { PrismaClient } from "../generated/prisma/client";
-//import { PrismaClient }from "@prisma/client";
+import { PrismaClient } from "@prisma/client";
+
+//import { PrismaClient } from "../generated/prisma/client";
 
 const prisma = new PrismaClient();
 
@@ -15,8 +16,7 @@ app.get("/about", (c) => {
 });
 
 app.get("/profile", async (c) => {
-    //login
-  const profiles = prisma.profile.findMany();
+  const profiles = await prisma.profile.findMany();
   return c.json(profiles);
 });
 
