@@ -1,0 +1,12 @@
+# REST API
+
+## Get All Profiles
+### curl http://localhost:3000/profile
+GET http://localhost:3000/profile
+### Crate new Profile
+### curl -X POST  http://localhost:3000/profile
+POST http://localhost:3000/profile
+Content-Type: application/json
+{
+    
+}
