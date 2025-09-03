@@ -6,7 +6,7 @@ const prisma = new PrismaClient();
 
 const app = new Hono();
 
-app.get("/", (c) => c.text("Pirapat papat"));
+app.get("/", (c) => c.text("Hello World Today!"));
 app.get("/profile", async (c) => {
     //get data from db
     const profiles = await prisma.profile.findMany();
@@ -29,6 +29,7 @@ app.post("/profile", async (c) => {
     console.log('body.password(replace) ', body);
     
     //save to db
+    body.status= false;
     const result = await prisma.profile.create({
         data: body
     });
