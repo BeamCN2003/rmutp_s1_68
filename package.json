@@ -11,6 +11,6 @@
   },
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node dist/server.js"
+    "dev": "npu run build dist/server.js"
   }
 }
