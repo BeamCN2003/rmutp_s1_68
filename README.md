@@ -47,5 +47,7 @@ npx prisma db push
 ## Develop
 ```bash
 npm run build
+npm run dev
+curl http://localhost:3000/profile
 ```
  
