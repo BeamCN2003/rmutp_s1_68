@@ -9,9 +9,9 @@ POST http://localhost:3000/profile
 Content-Type: application/json
 
 {
-    "username": "BeamX2",
+    "username": "BeamX5",
     "password": "1234",
-    "mobile": "0123456788",
-    "cardId": "1234567890122"
+    "mobile": "0123456785",
+    "cardId": "1234567890125"
 
 }
