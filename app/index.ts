@@ -8,7 +8,7 @@ const app = new Hono();
 
 app.get("/", (c) => c.text("Hono!"));
 app.get("/about", (c) => {
-  return c.json({ message: "Pirapat Papat" });
+  return c.json({ message: "Pirapat papat " });
 });
 app.get("/profile", async (c) => {
   const profile = await prisma.profile.findMany();
